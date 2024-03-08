@@ -88,12 +88,12 @@ public class CalanderTodoListApplication {
         System.out.println("삭제 후 수정 시도 ...");
         meetings.get(0).validateAndUpdate(
                 new UpdateMeeting(
-                        "new title 2",
+                        "new title 3",
                         ZonedDateTime.now(),
                         ZonedDateTime.now().plusHours(1),
                         null,
                         "B",
-                        "new agenda 2"
+                        "new agenda 3"
                 )
         );
 
